@@ -12,12 +12,13 @@ public class BasicCalculator {
         System.out.println("Enter the second number:");
         float num2 = scanner.nextFloat();
 
-        System.out.println("Possible calculations:\n" +
-                "(A)dd\n" +
-                "(S)ubtract\n" +
-                "(M)ultiply\n" +
-                "(D)ivide\n" +
-                "Please select an option:");
+        System.out.println("""
+                Possible calculations:
+                (A)dd
+                (S)ubtract
+                (M)ultiply
+                (D)ivide
+                Please select an option:""");
 
         char operator = scanner.next().charAt(0);
 
